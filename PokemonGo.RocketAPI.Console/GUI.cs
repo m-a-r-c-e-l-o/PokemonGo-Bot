@@ -966,10 +966,10 @@ namespace PokemonGo.RocketAPI.Console
             checkBox11.Text = "Behalte entwickelbare Pokemon";
         }
         
-        private void lang_pt-BR_btn_Click(object sender, EventArgs e)
+        private void lang_ptBR_btn_Click(object sender, EventArgs e)
         {
             lang_de_btn.Enabled = true;
-			lang_en_btn.Enabled = true
+            lang_en_btn.Enabled = true;
             lang_ptBR_btn.Enabled = false;
             languagestr = "ptBR";
 
